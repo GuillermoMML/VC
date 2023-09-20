@@ -1,4 +1,4 @@
-#Tarea 1: TAREA: Crea una imagen, p.e. 800x800, con la textura del tablero de ajedrez
+# Tarea 1: TAREA: Crea una imagen, p.e. 800x800, con la textura del tablero de ajedrez
 
 ```python
 #Crea una imagen con tres planos
@@ -12,7 +12,7 @@ plt.imshow(color_img)
 plt.show()
 ```
 
-#Tarea 2: TAREA: Crear una imagen estilo Mondrian (un ejemplo https://www3.gobiernodecanarias.org/medusa/ecoescuela/sa/2017/04/17/descubriendo-a-mondrian/ )
+# Tarea 2: TAREA: Crear una imagen estilo Mondrian (un ejemplo https://www3.gobiernodecanarias.org/medusa/ecoescuela/sa/2017/04/17/descubriendo-a-mondrian/ )
 
 ```python
 mondrian = np.zeros((800, 800,3), dtype = np.uint8)
@@ -54,7 +54,7 @@ plt.show()
 ```
 
 
-#Tarea 3: TAREA: Resuelve una de las tareas previas (a elegir) con las funciones de dibujo de OpenCV  :)
+# Tarea 3: TAREA: Resuelve una de las tareas previas (a elegir) con las funciones de dibujo de OpenCV  :)
 
 ```python
 import numpy as np
@@ -85,7 +85,7 @@ cv2.imshow("Tablero de Ajedrez", image)
 cv2.waitKey(0)
 ```
 
-#Tarea 4: TAREA: Modifica de alguna forma los valores de un plano de la imagen
+# Tarea 4: TAREA: Modifica de alguna forma los valores de un plano de la imagen
 ```python
 import cv2
 
@@ -114,7 +114,7 @@ vid.release()
 cv2.destroyAllWindows()
 ```
 
-#Tarea 5: TAREA: Pintar círculos en las posiciones del píxel más claro y oscuro de la imagen  ¿Si quisieras hacerlo sobre la zona 8x8 más clara/oscura?
+# Tarea 5: TAREA: Pintar círculos en las posiciones del píxel más claro y oscuro de la imagen  ¿Si quisieras hacerlo sobre la zona 8x8 más clara/oscura?
 ```python
 vid = cv2.VideoCapture(0)
 
@@ -154,7 +154,7 @@ vid.release()
 cv2.destroyAllWindows()
 ```
 
-#Tarea 6: TAREA: Haz tu propuesta pop art
+# Tarea 6: TAREA: Haz tu propuesta pop art
 
 ```python
 import random
