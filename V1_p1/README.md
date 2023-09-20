@@ -10,7 +10,7 @@ print(color_img.shape)
 #Visualiza sin especificar el mapa de color gris
 plt.imshow(color_img) 
 plt.show()
-```python
+```
 
 #Tarea 2: TAREA: Crear una imagen estilo Mondrian (un ejemplo https://www3.gobiernodecanarias.org/medusa/ecoescuela/sa/2017/04/17/descubriendo-a-mondrian/ )
 
@@ -51,7 +51,7 @@ mondrian[180:590, 720:800] = [255,0,0]
 plt.imshow(mondrian)
 plt.show()
 
-```python
+```
 
 
 #Tarea 3: TAREA: Resuelve una de las tareas previas (a elegir) con las funciones de dibujo de OpenCV  :)
@@ -83,7 +83,7 @@ for i in range(8):
 # Mostrar la imagen
 cv2.imshow("Tablero de Ajedrez", image)
 cv2.waitKey(0)
-```python
+```
 
 #Tarea 4: TAREA: Modifica de alguna forma los valores de un plano de la imagen
 ```python
@@ -112,7 +112,7 @@ vid.release()
 
 # Cierra todas las ventanas de visualización
 cv2.destroyAllWindows()
-```python
+```
 
 #Tarea 5: TAREA: Pintar círculos en las posiciones del píxel más claro y oscuro de la imagen  ¿Si quisieras hacerlo sobre la zona 8x8 más clara/oscura?
 ```python
@@ -152,7 +152,7 @@ vid.release()
 
 # Cierra todas las ventanas de visualización
 cv2.destroyAllWindows()
-```python
+```
 
 #Tarea 6: TAREA: Haz tu propuesta pop art
 
@@ -212,4 +212,4 @@ vid.release()
 # Destruye ventanas
 cv2.destroyAllWindows()
 
-```python 
+``` 
