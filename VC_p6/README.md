@@ -1,13 +1,4 @@
-## Práctica 6. Análisis facial
-
-### Contenidos
-
-[Conjunto de datos](#conjunto-de-datos)  
-[Autocaras](#autocaras)  
-[Descriptores locales](#descriptores-locales)  
-[deepface](#deepface)  
-[Tarea](#tarea)
-
+## Práctica 6.
 
 ## Tarea
 
