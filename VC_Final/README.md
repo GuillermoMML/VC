@@ -4,11 +4,7 @@ El código se divide en dos partes principales: la primera parte contiene la cla
 
 # Motivación/Argumento del Trabajo
 
-En relación con la motivación para realizar este trabajo, lo elegimos porque nos parecía divertido explorar la capacidad de grabar los coches en una determinada autopista y averiguar a qué velocidad aproximadamente se desplazan.
-
-# Propuesta de Ampliación
-
-Esto podría extrapolarse a otros tipos de vehículos, como los ciclomotores e incluso vehículos voladores, con ciertos ajustes, lo que le otorga una gran potencialidad. Esta iniciativa podría ser de utilidad en campos como el de la policía, mejorando así su desempeño laboral.
+La motivación que guió la elección de este proyecto se enraíza en el deseo de explorar y disfrutar de la capacidad de grabar la dinámica de los vehículos en una autopista específica. La fascinación de observar el flujo de automóviles y determinar aproximadamente sus velocidades nos motivó a emprender este trabajo. Más allá de la mera curiosidad, vislumbramos el potencial de contribuir a la comprensión y optimización de situaciones de tráfico, convirtiendo este proyecto en una experiencia tanto educativa como entretenida.
 
 ### Parte 1: Tracker
 
@@ -42,3 +38,11 @@ Los métodos principales son los siguientes:
 #### Funcionamiento:
 
 Se hace uso de la clasificación de fondo (`cv2.createBackgroundSubtractorMOG2`) para detectar vehículos en el video, se define una región de interés (ROI) mediante polígonos para separar áreas específicas, se aplican técnicas de procesamiento de imágenes, como umbralización y dilatación, para mejorar la detección, haciendo uso de la clase `Tracker` para seguir y asignar identificadores a los vehículos detectados y se controla la velocidad de los vehículos en una región específica y se actualiza el recuento total de coches que superan la velocidad máxima permitida.
+
+# Propuesta de Ampliación
+
+Esta iniciativa no solo se limita al monitoreo de vehículos en autopistas, sino que también podría extrapolarse a otros tipos de vehículos, como ciclomotores e incluso vehículos voladores, mediante ajustes específicos. Esta versatilidad amplía significativamente el alcance y la utilidad de nuestro proyecto. Consideramos que esta tecnología podría tener aplicaciones valiosas en diversas áreas, como en el ámbito policial, donde el monitoreo y seguimiento de vehículos son esenciales para mejorar la eficiencia y desempeño laboral.
+
+Además, al fusionar la detección de vehículos con un sistema de seguimiento de velocidad, hemos creado una herramienta que no solo captura la presencia de vehículos, sino que también analiza su comportamiento dinámico. Este enfoque integral no solo es aplicable a autopistas, sino que también podría extenderse a zonas urbanas y otros entornos de tráfico, convirtiéndolo en una solución versátil y adaptable.
+
+En resumen, nuestra motivación inicial, centrada en la curiosidad por la velocidad y movimiento de los vehículos en autopistas, ha evolucionado hacia la creación de una herramienta tecnológica con potencial para contribuir a la gestión del tráfico y mejorar la eficacia en diversos sectores.
