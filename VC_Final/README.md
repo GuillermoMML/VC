@@ -2,6 +2,14 @@ Hemos implementado un detector de vehículos y un sistema de seguimiento de velo
 
 El código se divide en dos partes principales: la primera parte contiene la clase `Tracker`, que realiza el seguimiento de objetos en un video, y la segunda parte incluye la interfaz de usuario utilizando la biblioteca `tkinter` y la detección de vehículos basada en la clasificación de fondo.
 
+# Motivación/Argumento del Trabajo
+
+En relación con la motivación para realizar este trabajo, lo elegimos porque nos parecía divertido explorar la capacidad de grabar los coches en una determinada autopista y averiguar a qué velocidad aproximadamente se desplazan.
+
+# Propuesta de Ampliación
+
+Esto podría extrapolarse a otros tipos de vehículos, como los ciclomotores e incluso vehículos voladores, con ciertos ajustes, lo que le otorga una gran potencialidad. Esta iniciativa podría ser de utilidad en campos como el de la policía, mejorando así su desempeño laboral.
+
 ### Parte 1: Tracker
 
 El propósito principal de `Tracker` es realizar un seguimiento de los objetos en un video mediante el almacenamiento de sus posiciones centrales y asignando identificadores únicos a cada objeto detectado donde se hace uso de los siguientes atributos:
