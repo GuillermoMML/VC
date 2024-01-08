@@ -1,10 +1,10 @@
 Hemos implementado un detector de vehículos y un sistema de seguimiento de velocidad.
 
-El código se divide en dos partes principales: la primera parte contiene la clase `Tracker`, que realiza el seguimiento de objetos en un video, y la segunda parte incluye la interfaz de usuario utilizando la biblioteca `tkinter` y la detección de vehículos basada en la clasificación de fondo.
+El código se divide en dos partes principales: la primera parte contiene la clase `Tracker`, que realiza el seguimiento de objetos en un video, y la segunda parte incluye la interfaz de usuario utilizando la biblioteca `tkinter` y la detección de vehículos basada en contornos.
 
 # Motivación/Argumento del Trabajo
 
-La motivación que guió la elección de este proyecto se enraíza en el deseo de explorar y disfrutar de la capacidad de grabar la dinámica de los vehículos en una autopista específica. La fascinación de observar el flujo de automóviles y determinar aproximadamente sus velocidades nos motivó a emprender este trabajo. Más allá de la mera curiosidad, vislumbramos el potencial de contribuir a la comprensión y optimización de situaciones de tráfico, convirtiendo este proyecto en una experiencia tanto educativa como entretenida.
+La motivación que guió la elección de este proyecto se enraíza en el deseo de explorar y disfrutar de la capacidad de grabar la dinámica de los vehículos en una autopista específica. La fascinación de observar el flujo de automóviles y estimar aproximadamente sus velocidades nos motivó a emprender este trabajo. Más allá de la mera curiosidad, vislumbramos el potencial de contribuir a la comprensión y optimización de situaciones de tráfico, convirtiendo este proyecto en una experiencia tanto educativa como entretenida.
 
 ### Parte 1: Tracker
 
